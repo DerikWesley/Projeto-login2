@@ -77,6 +77,26 @@ div#campo > input{
     padding: 2px;
     transform: translateY(2px);
 }
+
+div#lembre > label{
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+form > input[type=submit]{
+    display: block;
+    width: 40%;
+    height: 20%;
+    font-size: 1.1em;
+    margin-top: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+form > input[type=submit]:hover{
+    background-color: rgba(136, 135, 135, 0.521);
+}
    
 
 
