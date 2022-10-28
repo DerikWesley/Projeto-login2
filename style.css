@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(201, 142, 55);
+    top: 100px;
+    left: 100%;
+
+}
