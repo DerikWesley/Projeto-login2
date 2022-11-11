@@ -18,18 +18,18 @@ main{
     background: url(../Projeto-login2/imagen/pexels-sagui-andrea-618833.jpg);
     background-size: cover;
     background-position: center center ;
+    display: block;
 
 }
 
 section#login{
     position: absolute;
-    width: 300px;
-    height: 350px;
     background-color: #2c2b2b93;
-    top: 30%;
-    left: 30%;
+    left: 50%;
+    top: 50%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    transform: translate(-50%, -50%);
 }
 
 div#formulario{
